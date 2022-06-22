@@ -40,7 +40,7 @@ public class BrowserStackTestNGTest {
         bstackOptions.put("appiumVersion", "1.22.0");
         bstackOptions.put("projectName", "Sample ");
         bstackOptions.put("buildName",
-                          "Parallel Test "+ LocalDateTime.now().format(DateTimeFormatter.ofPattern("dd-MM-yyyy hh:mm:ss")));
+                          "Parallel Test "+ LocalDateTime.now().format(DateTimeFormatter.ofPattern("dd-MM-yyyy hh:mm")));
         
         capabilities.setCapability("bstack:options", bstackOptions);
     

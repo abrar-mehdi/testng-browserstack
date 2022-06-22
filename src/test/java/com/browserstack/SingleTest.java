@@ -8,6 +8,7 @@ import org.testng.annotations.Test;
 
 public class SingleTest extends BrowserStackTestNGTest {
 
+    // Use debugger
     @Test
     public void test() throws Exception {
     	  // navigate to bstackdemo
